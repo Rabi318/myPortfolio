@@ -1,4 +1,4 @@
-import { Github, Linkedin } from "lucide-react";
+import { Github, Linkedin, Youtube } from "lucide-react";
 import React from "react";
 
 const Footer = () => {
@@ -19,6 +19,13 @@ const Footer = () => {
             className="text-gray-400 hover:text-white"
           >
             <Linkedin size={24} />
+          </a>
+          <a
+            href="https://youtube.com/@rabicodes?si=ln3NZAXKAjfaS-DF"
+            target="_blank"
+            className="text-gray-400 hover:text-white"
+          >
+            <Youtube size={24} />
           </a>
         </div>
         <p>
