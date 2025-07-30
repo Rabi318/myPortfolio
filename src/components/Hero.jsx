@@ -10,7 +10,7 @@ const Hero = () => {
     await loadFull(engine);
   }, []);
   const resumeUrl =
-    "https://drive.google.com/file/d/14TJlgfDJi9fbvahKsm8M67T_SO2BcblM/view?usp=sharing";
+    "https://drive.google.com/file/d/1PdpkIfX1fxMUzqley62kKkOo-uAlaeqf/view?usp=sharing";
 
   return (
     <section
