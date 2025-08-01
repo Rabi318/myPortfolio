@@ -48,7 +48,7 @@ const Hero = () => {
         className="absolute top-0 left-0 w-full h-full z-0"
       />
 
-      <div className="relative z-10">
+      <div className="relative z-10 ">
         <motion.h1
           className="text-4xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent"
           initial={{ opacity: 0, y: -50 }}
@@ -129,6 +129,22 @@ const Hero = () => {
           >
             <FaYoutube />
           </a>
+        </motion.div>
+
+        {/* Profile Picture */}
+        <motion.div
+          className="relative w-55 h-55 md:w-70 md:h-70 lg:w-85 lg:h-85 mt-5 mx-auto"
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 1, delay: 0.2 }}
+        >
+          {/* Gradient Border Effect */}
+          <div className="absolute inset-0 bg-gradient-to-br from-blue-400 to-purple-500 rounded-full blur-md animate-pulse"></div>
+          <img
+            src="/updatedprofile.jpg"
+            alt="A photo of Rabi"
+            className="relative w-full h-full rounded-full object-cover border-4 border-gray-900"
+          />
         </motion.div>
       </div>
     </section>
