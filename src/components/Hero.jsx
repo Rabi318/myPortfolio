@@ -10,7 +10,7 @@ const Hero = () => {
     await loadFull(engine);
   }, []);
   const resumeUrl =
-    "https://drive.google.com/file/d/1PdpkIfX1fxMUzqley62kKkOo-uAlaeqf/view?usp=sharing";
+    "https://drive.google.com/file/d/1ynaVNfLNoH_gEVFPr1bVovHV9bhQ2HP-/view?usp=sharing";
 
   return (
     <section
@@ -86,6 +86,12 @@ const Hero = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="bg-transparent border-2 border-cyan-400 text-cyan-400 px-6 py-3 rounded-full font-semibold shadow-md hover:bg-cyan-400 hover:text-gray-950 transition-colors duration-300"
+            onClick={(e) => {
+              const link = document.createElement("a");
+              link.href = "/Rabinarayan_sahoo_Resume.pdf";
+              link.download = "Rabinarayan_sahoo_Resume.pdf";
+              link.click(); // Triggers Save As dialog
+            }}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
