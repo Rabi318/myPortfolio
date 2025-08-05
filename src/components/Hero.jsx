@@ -133,7 +133,7 @@ const Hero = () => {
 
         {/* Profile Picture */}
         <motion.div
-          className="relative w-55 h-55 md:w-70 md:h-70 lg:w-85 lg:h-85 mt-5 mx-auto"
+          className="relative w-55 h-55 md:w-70 md:h-70 lg:w-70 lg:h-70 mt-5 mx-auto"
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1, delay: 0.2 }}
