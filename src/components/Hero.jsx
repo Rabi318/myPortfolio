@@ -141,7 +141,7 @@ const Hero = () => {
           {/* Gradient Border Effect */}
           <div className="absolute inset-0 bg-gradient-to-br from-blue-400 to-purple-500 rounded-full blur-md animate-pulse"></div>
           <img
-            src="/updatedprofile.jpg"
+            src="/newProfile.jpg"
             alt="A photo of Rabi"
             className="relative w-full h-full rounded-full object-cover border-4 border-gray-900"
           />
