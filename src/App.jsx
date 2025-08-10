@@ -86,7 +86,7 @@ function App() {
             className="text-2xl font-bold text-white hover:text-cyan-400 transition-colors duration-300"
           >
             <div className="flex items-center text-white space-x-1 text-lg font-semibold">
-              <Code size={24} className="text-blue-400" />
+              {/* <Code size={24} className="text-blue-400" /> */}
               <span className="bg-gradient-to-r from-purple-400 to-pink-500 text-transparent bg-clip-text">
                 Rabi
               </span>
